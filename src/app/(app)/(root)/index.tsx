@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Style } from '@/screens';
 import { FocusAwareStatusBar } from '@/components/ui';
+import { Style } from '@/screens';
 
 export default function Page() {
   return (

@@ -1,5 +1,6 @@
 import { Redirect, Stack } from 'expo-router';
 import React from 'react';
+
 import { useIsFirstTime } from '@/hooks';
 import { useAuth } from '@/stores';
 

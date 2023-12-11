@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, H2, Paragraph, YStack } from 'tamagui';
 
-import { FocusAwareStatusBar, SafeAreaView } from '@/components/ui';
+import { SafeAreaView } from '@/components/ui';
 import { useIsFirstTime } from '@/hooks';
 
 import { Cover } from './cover';
