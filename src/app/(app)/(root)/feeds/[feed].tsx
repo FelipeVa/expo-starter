@@ -11,7 +11,7 @@ type PageProps = { feed: string };
 export default function Page() {
   const { feed } = useLocalSearchParams<PageProps>();
   const { data, isLoading, isError } = usePost({
-    variables: { id: feed },
+    variables: { id: feed as string },
   });
 
   if (isLoading) {
