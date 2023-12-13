@@ -130,5 +130,5 @@
     "type": "git",
     "url": "git+https://github.com/user/repo-name.git"
   },
-  "packageManager": "pnpm@8.6.5",
+  "packageManager": "pnpm@8.6.5"
 }
