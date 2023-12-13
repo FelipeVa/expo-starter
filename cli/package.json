@@ -1,11 +1,11 @@
 {
   "name": "create-xtam-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Expo & Tamagui starter cli",
-  "homepage": "https://github.com/FelipeVa/expo-starter",
+  "homepage": "https://github.com/FelipeVa/react-native-xtam-template",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FelipeVa/expo-starter"
+    "url": "https://github.com/FelipeVa/react-native-xtam-template"
   },
   "main": "src/index.js",
   "scripts": {
