@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 const chalk = require('chalk');
+const { showProjectDetails, prepareProject } = require('./utils');
 
 const createApp = async () => {
   const appName = process.argv[2];
@@ -7,19 +8,19 @@ const createApp = async () => {
   if (!appName) {
     console.log(chalk.red('Please specify the app directory:'));
     console.log(
-      chalk.green('npx rn-starter-app '),
+      chalk.green('npx @felipeva/create-expo-starter '),
       chalk.yellow('<app-directory>')
     );
     console.log();
     console.log('For example:');
-    console.log(chalk.green('npx rn-starter-app '), chalk.yellow('my-app'));
+    console.log(chalk.green('npx @felipeva/create-expo-starter '), chalk.yellow('my-app'));
     console.log();
     process.exit(1);
   }
 
-  const repository = '';
+  await prepareProject(appName);
 
-
+  showProjectDetails(appName);
 };
 
 createApp();
