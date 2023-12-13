@@ -103,7 +103,7 @@ async function installDependencies(name) {
 }
 
 async function cloneRepository(name) {
-  const cloneStarter = `git clone --depth=1 https://github.com/FelipeVa/expo-starter.git ${name}`;
+  const cloneStarter = `git clone --depth=1 https://github.com/FelipeVa/react-native-xtam-template.git ${name}`;
 
   await runCommand(cloneStarter, {
     successMessage: 'Project created',
