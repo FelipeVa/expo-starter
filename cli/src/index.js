@@ -8,12 +8,12 @@ const createApp = async () => {
   if (!appName) {
     console.log(chalk.red('Please specify the app directory:'));
     console.log(
-      chalk.green('npx @felipeva/create-expo-starter '),
+      chalk.green('npx create-xtam-app '),
       chalk.yellow('<app-directory>')
     );
     console.log();
     console.log('For example:');
-    console.log(chalk.green('npx @felipeva/create-expo-starter '), chalk.yellow('my-app'));
+    console.log(chalk.green('npx create-xtam-app '), chalk.yellow('my-app'));
     console.log();
     process.exit(1);
   }
