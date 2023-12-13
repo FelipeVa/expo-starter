@@ -1,6 +1,6 @@
 {
   "main": "expo-router/entry",
-  "name": "rn-starter",
+  "name": "xtamapp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -35,7 +35,7 @@
     "test:watch": "pnpm run test --watch",
     "eas-build-pre-install": "./scripts/eas-pre-install",
     "install-maestro": "curl -Ls 'https://get.maestro.mobile.dev' | bash",
-    "e2e-test": "maestro test .maestro/ -e APP_ID=com.obytes.development"
+    "e2e-test": "maestro test .maestro/ -e APP_ID=com.xtam.development"
   },
   "dependencies": {
     "@gorhom/bottom-sheet": "^4.5.1",
@@ -131,7 +131,4 @@
     "url": "git+https://github.com/user/repo-name.git"
   },
   "packageManager": "pnpm@8.6.5",
-  "osMetadata": {
-    "initVersion": "4.3.0"
-  }
 }

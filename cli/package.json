@@ -1,7 +1,7 @@
 {
-  "name": "@felipeva/create-expo-starter",
+  "name": "create-xtam-app",
   "version": "1.0.0",
-  "description": "Expo starter cli",
+  "description": "Expo & Tamagui starter cli",
   "homepage": "https://github.com/FelipeVa/expo-starter",
   "repository": {
     "type": "git",
